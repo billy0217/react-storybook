@@ -1,0 +1,22 @@
+.c-faq {
+	box-shadow: 0 0 5px #ccc;
+	margin: 5px 0;
+}
+
+.c-faq__heading {
+	margin: 0;
+	padding: 20px;
+	cursor: pointer;
+}
+
+.c-faq__body {
+	padding: 20px;
+}
+
+.c-faq__body[aria-expanded="false"]{
+	display: none;
+}
+
+.c-faq__body[aria-expanded="true"]{
+	display: block;
+}
