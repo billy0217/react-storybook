@@ -15,17 +15,17 @@ export const Heading = ({label, align}) => {
 }
 
 Heading.propTypes = {
+	/**
+	 * Heading content
+	*/
 	label: PropTypes.string.isRequired,
+	/**
+	 * Heading alignment?
+	 */
 	align: PropTypes.oneOf(['left', 'center', 'right']),
 };
 
 Heading.defaultProps = {
-	/**
-	 * Heading content
-	 */
 	label : 'heading',
-	/**
-	 * Heading alignment?
-	 */
 	align: 'left'
 };
