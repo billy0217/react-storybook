@@ -11,8 +11,7 @@ export const Image = ({src, webp, crop, alt}) => {
 					webp &&
 					<source srcset={webp} type="image/webp" />
 				}
-				
-				<img className="c-fig__img" src={src} alt={alt} />
+				<img className="c-fig__img" src={src} alt={alt} loading="lazy" />
 			</picture>
 		</div>
 	)
