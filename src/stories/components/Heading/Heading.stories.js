@@ -10,7 +10,7 @@ export default {
 	tags: ['autodocs'],
 };
 
-export const Primary = {
+export const heading = {
 	args: {
 		label: 'Heading',
 		align: 'left'
