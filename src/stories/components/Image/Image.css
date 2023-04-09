@@ -1,0 +1,20 @@
+.c-fig {
+	position: relative;
+	overflow: hidden;
+}
+
+.c-fig__square {
+	padding-bottom: 100%;
+}
+
+.c-fig__landscape {
+	padding-bottom: calc( (9/16) * 100% );
+}
+
+.c-fig__img {
+	position: absolute;
+	object-fit: cover;
+    height: 100%;
+    width: 100%;
+    object-position: center;
+}
