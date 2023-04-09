@@ -10,8 +10,8 @@ export default {
 	tags: ['autodocs'],
 };
 
-export const Primary = {
+export const rte = {
 	args: {
-		content: null,
+		content: "Content",
 	},
 };
