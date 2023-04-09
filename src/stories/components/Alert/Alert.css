@@ -1,0 +1,29 @@
+.c-alert {
+	border-radius: 4px;
+    box-shadow: none;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    line-height: 1.43;
+    display: flex;
+    padding: 15px 20px;
+}
+
+.c-alert__error {
+	background-color: rgb(253, 237, 237);
+	color: rgb(95, 33, 32);
+}
+
+.c-alert__warning {
+	background-color: rgb(255, 244, 229);
+    color: rgb(102, 60, 0);
+}
+
+.c-alert__info {
+	background-color: rgb(229, 246, 253);
+    color: rgb(1, 67, 97);
+}
+
+.c-alert__success {
+	background-color: rgb(237, 247, 237);
+    color: rgb(30, 70, 32);
+}
