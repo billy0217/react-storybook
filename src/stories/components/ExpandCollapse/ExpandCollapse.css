@@ -1,0 +1,15 @@
+.c-expandcollapse__heading{
+	margin-bottom: 20px;
+}
+
+.c-expandcollapse .c-button {
+	margin: 20px 0;
+}
+
+.c-expandcollapse__body[aria-expanded="false"]{
+	display: none;
+}
+
+.c-expandcollapse__body[aria-expanded="true"]{
+	display: block;
+}
